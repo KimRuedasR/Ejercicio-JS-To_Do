@@ -1,0 +1,61 @@
+html, body {
+    background-color: rgb(0, 200, 255);
+    width: 50%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 15px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.instrucciones {
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    width: 334px;
+}
+
+.ins1 {
+    color: green;
+}
+
+.ins2 {
+    color: red;
+}
+
+.container {
+    width: 350px;
+}
+
+#campo {
+    width: 250px;
+    height: 46px;
+    border-width: 0;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+#anadir {
+    height: 50px;
+    width: 80px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+.tareas {
+    color: orange;
+    margin: 0;
+    cursor: pointer;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.completada {
+    color: green;
+    text-decoration: line-through;
+}
