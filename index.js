@@ -3,16 +3,16 @@ let toDoContainer = document.getElementById('lista_tareas');
 let inputField = document.getElementById('campo');
 
 addToDoButton.addEventListener('click', function(){
-    var paragraph = document.createElement('p');
-    paragraph.classList.add('tareas');
-    paragraph.innerText = inputField.value;
-    toDoContainer.appendChild(paragraph);
+    var parrafo = document.createElement('p');
+    parrafo.classList.add('tareas');
+    parrafo.innerText = inputField.value;
+    toDoContainer.appendChild(parrafo);
     inputField.value = "";
     
-    paragraph.addEventListener('click', function(){
-        paragraph.classList.add('completada');
+    parrafo.addEventListener('click', function(){
+        parrafo.classList.add('completada');
     })
-    paragraph.addEventListener('dblclick', function(){
-        toDoContainer.removeChild(paragraph);
+    parrafo.addEventListener('dblclick', function(){
+        toDoContainer.removeChild(parrafo);
     })
 })
